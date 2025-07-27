@@ -1,0 +1,16 @@
+# Force HTTPS for the whole site
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Allow HTTP access only for specific files
+RewriteCond %{REQUEST_URI} !^/(app\.js|index\.html|favicon\.ico|style\.css)$
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Ensure specific files are served only over HTTPS
+RewriteCond %{REQUEST_URI} ^/(app\.js|index\.html|favicon\.ico|style\.css)$
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Ensure the whole site uses HTTPS except the allowed files
