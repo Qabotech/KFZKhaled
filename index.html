@@ -1,102 +1,244 @@
 <!DOCTYPE html>
 <html lang="de">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kfz Meisterbetrieb Khaled</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
+<div id="head-container"></div>
 
 <body>
-    <header>
-        <h1>Kfz Meisterbetrieb Khaled</h1>
-        <p>Ihr vertrauenswürdiger Kfz-Meisterbetrieb in Waldkappel</p>
-    </header>
+    <!-- Navigation inclusion -->
+    <div id="nav-container" style="background: var(--bg-tertiary);"></div>
 
-    <nav>
-        <ul>
-            <li><a href="#start">Startseite</a></li>
-            <li><a href="#ueber">Über uns</a></li>
-            <li><a href="#leistungen">Leistungen</a></li>
-            <li><a href="#zeiten">Öffnungszeiten</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
 
-    <section id="start">
-        <h2>Willkommen</h2>
-        <p>Meisterservice rund ums Auto – zuverlässig, ehrlich, kompetent.</p>
-        <p>Sie suchen eine vertrauenswürdige Werkstatt in Waldkappel und Umgebung? Dann sind Sie bei uns genau richtig! Als zertifizierter Kfz-Meisterbetrieb bieten wir Ihnen Reparaturen aller Art – fachgerecht, transparent und mit 1 Jahr Garantie auf alle ausgeführten Arbeiten.</p>
-        <p> <b>Adresse:</b> Nordstraße 8, 37284 Waldkappel</p>
-    </section>
-
-    <section id="ueber">
-        <h2>Über uns</h2>
-        <p>Ihre Zufriedenheit steht bei mir an erster Stelle. Darum erhalten Sie auf alle Reparaturen eine 1 Jahr Garantie – für absolute Sicherheit und Vertrauen in meinen Service.</p>
-        <p>Mein Name ist Kfz-Meister Khaled. Mit langjähriger Erfahrung und persönlichem Einsatz stehe ich Ihnen jederzeit zuverlässig zur Seite. In meinem zertifizierten Fachbetrieb lege ich größten Wert auf präzise Arbeit, ehrliche Beratung und individuelle Betreuung – damit Sie sich rundum wohl und gut aufgehoben fühlen.</p>
-        <p>Ich spreche Deutsch und Arabisch, um Sie klar und verständlich zu beraten, ganz ohne Missverständnisse.</p>
-        <p>Ob kleine Reparatur oder große Instandsetzung – bei mir ist Ihr Fahrzeug in den besten Händen. Überzeugen Sie sich selbst von meinem erstklassigen Service!</p>
-    </section>
-
-    <section id="leistungen">
-        <h2>Unsere Leistungen</h2>
-        <p>Unsere Werkstatt bietet Ihnen unter anderem:</p>
-        <ul>
-            <li>Kfz-Reparaturen aller Art</li>
-            <li>Elektronische Fahrzeugdiagnose</li>
-            <li>Reifenservice & Reifenwechsel</li>
-            <li>Inspektionen nach Herstellervorgaben</li>
-            <li>Klimaservice</li>
-            <li>Motoreninstandsetzung</li>
-            <li>TÜV / HU & AU Service</li>
-            <li>An- und Verkauf von Fahrzeugen</li>
-            <li>Bremsenservice, Ölwechsel, Auspuffarbeiten, Fahrwerkswartung u.v.m.</li>
-        </ul>
-    </section>
-
-    <section id="zeiten">
-        <h2>Öffnungszeiten</h2>
-        <table>
-            <tr>
-                <th>Wochentag</th>
-                <th>Uhrzeit</th>
-            </tr>
-            <tr>
-                <td>Montag–Freitag</td>
-                <td>08:00 – 18:00</td>
-            </tr>
-            <tr>
-                <td>Samstag</td>
-                <td>08:00 – 16:00</td>
-            </tr>
-            <tr>
-                <td>Sonntag</td>
-                <td>Geschlossen</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Kfz Meisterbetrieb Khaled</p>
-        <p>Nordstraße 8, 37284 Waldkappel</p>
-        <p>Handy: 0176 23393002</p>
-        <p>E-Mail: info@kfzmeisterkhaled.de</p>
-
-        <div style="margin-top: 20px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.785103474667!2d9.884201823051674!3d51.149313836799166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4b3d78fc2f3e7%3A0x7ea96ae02bd44ce8!2sNordstra%C3%9Fe%208%2C%2037284%20Waldkappel!5e0!3m2!1sar!2sde!4v1752879590562!5m2!1sar!2sde"
-                width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Willkommen bei Ihrem Kfz-Meisterbetrieb in Waldkappel
+                </h1>
+                <p class="hero-description">Meisterservice rund ums Auto – zuverlässig, ehrlich, kompetent. Sie suchen eine vertrauenswürdige Werkstatt in Waldkappel und Umgebung? Dann sind Sie bei uns genau richtig! Als zertifizierter Kfz-Meisterbetrieb bieten wir Ihnen Reparaturen
+                    aller Art – fachgerecht, transparent und mit 1 Jahr Garantie auf alle ausgeführten Arbeiten. Egal ob Inspektion, Klimaservice, Motoreninstandsetzung oder Reifendienst: Wir kümmern uns um Ihr Fahrzeug – schnell, zuverlässig und mit
+                    Leidenschaft fürs Handwerk.
+                </p>
+                <button class="btn btn-primary btn-large Termin-btn">Termin
+                    buchen</button>
+                <!-- Stats Section 
+                <div class="hero-rating">
+                    <div class="rating-stars">
+                        <span>★★★★★</span>
+                    </div>
+                    <span class="rating-text">4.9 • 1,234 Bewertungen</span>
+                </div>
+                -->
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Kfz Meisterbetrieb Khaled. Alle Rechte vorbehalten.</p>
-    </footer>
+    <!-- Stats Section 
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">10K+</h3>
+                    <p class="stat-label">Zufriedene Kunden</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">10K+</h3>
+                    <p class="stat-label">Abgeschlossene Reparaturen</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">15+</h3>
+                    <p class="stat-label">Jahre im Geschäft</p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Mechaniker arbeitet am Auto">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Über uns</h2>
+                    <p class="about-text">
+                        Ihre Zufriedenheit steht bei mir an erster Stelle. Darum erhalten Sie auf alle Reparaturen eine 1 Jahr Garantie – für absolute Sicherheit und Vertrauen in meinen Service. Mein Name ist Kfz-Meister Khaled. Mit langjähriger Erfahrung und persönlichem Einsatz
+                        stehe ich Ihnen jederzeit zuverlässig zur Seite. In meinem zertifizierten Fachbetrieb lege ich größten Wert auf präzise Arbeit, ehrliche Beratung und individuelle Betreuung – damit Sie sich rundum wohl und gut aufgehoben fühlen.
+
+                    </p>
+                    <p class="about-text">
+                        Ich spreche Deutsch und Arabisch, um Sie klar und verständlich zu beraten, ganz ohne Missverständnisse. Ob kleine Reparatur oder große Instandsetzung – bei mir ist Ihr Fahrzeug in den besten Händen. Überzeugen Sie sich selbst von meinem erstklassigen
+                        Service!
+                    </p>
+                    <button class="btn btn-outline more-btn">Mehr
+                        erfahren</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Leistungen</h2>
+                <p class="section-description">Unsere Werkstatt bietet Ihnen unter anderem</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/repair.png" alt="Kfz-Reparaturen" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Kfz-Reparaturen aller Art</h3>
+                    <p class="service-description">Vom kleinen Schaden bis zur komplexen Instandsetzung – wir bringen Ihr Auto zuverlässig wieder auf die Straße.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/battery.png" alt="Elektronische Fahrzeugdiagnose" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Elektronische Fahrzeugdiagnose</h3>
+                    <p class="service-description">Mit moderner Diagnosetechnik finden wir schnell und präzise jeden Fehler – für alle Fahrzeugtypen.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/tire.png" alt="Reifenservice" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Reifenservice & Reifenwechsel</h3>
+                    <p class="service-description">Professionelle Montage, Auswuchten und Saisonwechsel Ihrer Reifen.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/inspection.png" alt="Inspektionen" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Inspektionen nach Herstellervorgaben</h3>
+                    <p class="service-description">Damit Ihre Herstellergarantie erhalten bleibt – fachgerecht durchgeführt und vollständig dokumentiert.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/AC.png" alt="Klimaservice" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Klimaservice</h3>
+                    <p class="service-description">Wartung, Reinigung und Reparatur Ihrer Klimaanlage für ein angenehmes und frisches Fahrgefühl.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/motor.png" alt="Motoreninstandsetzung" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Motoreninstandsetzung</h3>
+                    <p class="service-description">Fachgerechte Reparaturen bei Motorschäden oder Verschleiß – wir sorgen dafür, dass Ihr Motor wieder rund läuft.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/tuv.png" alt="TÜV / HU & AU Service" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">TÜV / HU & AU Service</h3>
+                    <p class="service-description">Keine Wartezeit, kein Stress – wir übernehmen alle Aufgaben für Sie. Vorabkontrolle und Prüfstellenfahrt inklusive.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/buy.png" alt="An- und Verkauf von Fahrzeugen" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">An- und Verkauf von Fahrzeugen</h3>
+                    <p class="service-description">Große Auswahl an gebrauchten Fahrzeugen mit Garantie. Finanzierung, Anzahlung und Inzahlungnahme möglich.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="./media/services/more.png" alt="Und vieles mehr" width="48" height="48">
+                    </div>
+                    <h3 class="service-title">Und vieles mehr</h3>
+                    <p class="service-description">Auch Bremsenservice, Ölwechsel, Auspuffarbeiten und Fahrwerkswartung gehören zu unserem Angebot.</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-cta">
+            <button class="btn btn-outline">Alle Leistungen ansehen</button>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-grid">
+                <div class="why-choose-content">
+                    <h2 class="section-title">Warum uns wählen?</h2>
+                    <p class="why-choose-text">
+                        Bei uns ist Ihr Fahrzeug in besten Händen. Wir bieten Ihnen professionelle Beratung, schnelle Reparaturen und transparente Preisgestaltung.
+                    </p>
+                    <p class="why-choose-text">
+                        Vertrauen Sie auf unsere langjährige Erfahrung, moderne Technik und unsere Leidenschaft für Ihr Auto.
+                    </p>
+                    <ul class="why-choose-list">
+                        <li>✓ Zertifizierte Techniker</li>
+                        <li>✓ Schnelle Bearbeitungszeit</li>
+                        <li>✓ Faire Preise</li>
+                        <li>✓ Umfassende Garantie</li>
+                    </ul>
+                </div>
+                <div class="why-choose-image">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kfz Werkstatt">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Kümmern Sie sich um Ihr Fahrzeug</h2>
+                <button class="btn btn-primary btn-large">Kontaktieren Sie
+                    uns</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Standort</h3>
+                        <p>Nordstraße 8<br>37284 Waldkappel</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Öffnungszeiten</h3>
+                        <p>Montag - Freitag: 08:00 – 18:00<br>Samstag: 08:00 – 16:00
+                            <br>Sonntag: Geschlossen</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Kontaktieren Sie uns</h3>
+                        <p>Handy: 0176 23393002<br>Email: info@meisterbetriebkhaled.com
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe class="map-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.785103474667!2d9.884201823051674!3d51.149313836799166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4b3d78fc2f3e7%3A0x7ea96ae02bd44ce8!2sNordstra%C3%9Fe%208%2C%2037284%20Waldkappel!5e0!3m2!1sar!2sde!4v1752879590562!5m2!1de!2sde"
+                        width="100%" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer inclusion -->
+    <div id="footer-container"></div>
+    <script src="apps.js"></script>
+
+    <script>
+        // Navigation und Footer laden
+        loadHead();
+        loadNavigation();
+        loadFooter();
+    </script>
 </body>
 
 </html>
