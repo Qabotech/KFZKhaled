@@ -238,9 +238,21 @@
     <!-- Footer inclusion -->
     <div id="footer-container"></div>
     <script src="apps.js"></script>
+    <script src="script.js" defer></script>
 
     <script>
         loadHead();
+        document.querySelectorAll('.Termin-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                window.open('https://api.whatsapp.com/send/?phone=4917623393002&text=Hallo%2C+ich+w%C3%BCrde+gerne+einen+Termin+f%C3%BCr+mein+Auto+bei+euch+buchen.+K%C3%B6nnt+ihr+mir+bitte+die+verf%C3%BCgbaren+Zeiten+mitteilen%3F+Vielen+Dank%21&type=phone_number&app_absent=0', '_blank');
+
+            });
+        });
+        document.querySelectorAll('.more-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                window.open('https://api.whatsapp.com/send/?phone=4917623393002&text=Hallo%2C+ich+w%C3%BCrde+gerne+mehr+%C3%BCber+Ihre+Firma+und+Ihre+Services+erfahren.+K%C3%B6nnten+Sie+mir+bitte+weitere+Informationen+zusenden%3F+Vielen+Dank%21&type=phone_number&app_absent=0', '_blank');
+            });
+        });
     </script>
 </body>
 
