@@ -169,6 +169,11 @@ document.querySelectorAll('.more-btn').forEach(btn => {
         window.open('https://api.whatsapp.com/send/?phone=4917623393002&text=Hallo%2C+ich+w%C3%BCrde+gerne+mehr+%C3%BCber+Ihre+Firma+und+Ihre+Services+erfahren.+K%C3%B6nnten+Sie+mir+bitte+weitere+Informationen+zusenden%3F+Vielen+Dank%21&type=phone_number&app_absent=0', '_blank');
     });
 });
+document.querySelectorAll('.default-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        window.open('https://api.whatsapp.com/send/?phone=4917623393002&type=phone_number&app_absent=0', '_blank');
+    });
+});
 
 // Keyboard navigation support
 document.addEventListener('keydown', (e) => {
