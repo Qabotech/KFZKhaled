@@ -574,7 +574,7 @@ body {
 }
 
 .social-link {
-    display: inline-block;
+    display: flex;
     width: 40px;
     height: 40px;
     background: var(--bg-secondary);
@@ -583,6 +583,8 @@ body {
     line-height: 40px;
     text-decoration: none;
     transition: var(--transition);
+    justify-content: center;
+    align-items: center;
 }
 
 .social-link .social-link:hover {
